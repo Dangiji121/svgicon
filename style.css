@@ -1,0 +1,145 @@
+.converter-group {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      gap: 15px;
+      padding: 20px;
+      border-radius: 8px;
+      max-width: 100%;
+    }
+
+    .group-title {
+      width: 100%;
+      font-size: 1.5rem;
+      font-weight: bold;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .group-item {
+      flex: 1 1 calc(20% - 20px); /* 6 items per row minimum */
+      max-width: calc(20% - 20px); /* Ensure items don’t stretch beyond 33.33% */
+      text-decoration: none;
+      text-align: center;
+      padding: 20px;
+      border-radius: 10px;
+      color:#000;
+    }
+
+    .img {
+      display: block;
+      width: 50px;
+      height: 50px;
+      margin: 0 auto 10px;
+      background-size: cover;
+    }
+    
+    .img:hover{transform: scale(1.05);}
+
+    .img-image-to-pdf {
+      background-image: url('https://raw.githubusercontent.com/Dangiji121/svg-icons/525e5e46cee76f4c7f11306c54cda7d46dd96716/image%20to%20pdf%20converter.svg');
+    }
+
+    .img-pdf-to-png {
+      background-image: url('https://raw.githubusercontent.com/Dangiji121/svg-icons/525e5e46cee76f4c7f11306c54cda7d46dd96716/pdf%20to%20png%20converter.svg');
+    }
+
+    .img-merge-pdf {
+      background-image: url('https://raw.githubusercontent.com/Dangiji121/svg-icons/525e5e46cee76f4c7f11306c54cda7d46dd96716/merge%20pdf.svg');
+    }
+    .img-pdf-word-count {
+      background-image: url('https://raw.githubusercontent.com/Dangiji121/svg-icons/50d8f40a54eabf8845b51a0aced9fe0e70c9092e/pdf-file.svg');
+    }
+
+    .img-excel-to-pdf {
+      background-image: url('https://raw.githubusercontent.com/Dangiji121/svg-icons/525e5e46cee76f4c7f11306c54cda7d46dd96716/excel%20to%20pdf%20converter.svg');
+    }
+
+    .img-powerpoint-to-pdf {
+      background-image: url('https://raw.githubusercontent.com/Dangiji121/svg-icons/525e5e46cee76f4c7f11306c54cda7d46dd96716/powerpoint%20to%20pdf%20converter.svg');
+    }
+    .img-word-to-pdf {
+      background-image: url('https://raw.githubusercontent.com/Dangiji121/svg-icons/525e5e46cee76f4c7f11306c54cda7d46dd96716/image%20to%20pdf%20converter.svg');
+    }
+    .img-pdf-to-word {
+      background-image: url('https://raw.githubusercontent.com/Dangiji121/svg-icons/535cbe20e86b1f2891170dfb41c8470628a5ee21/pdf%20to%20word%20converter.svg');
+    }
+    .img-pdf-to-excel {
+      background-image: url('https://raw.githubusercontent.com/Dangiji121/svg-icons/535cbe20e86b1f2891170dfb41c8470628a5ee21/pdf%20to%20excel%20converter.svg');
+    }
+    .img-pdf-to-powerpoint {
+      background-image: url('https://raw.githubusercontent.com/Dangiji121/svg-icons/535cbe20e86b1f2891170dfb41c8470628a5ee21/pdf%20to%20powerpoint%20converter.svg');
+    }
+    .img-rss-feed {
+      background-image: url('https://raw.githubusercontent.com/Dangiji121/svg-icons/063e7b0bb3d4a88582b97f4c26360d14310412f6/rss-feed.svg');
+    }
+    .img-meta-tag {
+      background-image: url('https://raw.githubusercontent.com/Dangiji121/svg-icons/0b86f1b59c27db52bfd1be937d3ead22a332a718/meta-tag.svg');
+    }
+    .img-schema {
+      background-image: url('https://raw.githubusercontent.com/Dangiji121/svg-icons/0b86f1b59c27db52bfd1be937d3ead22a332a718/schema-marckup.svg');
+    }
+    .img-page {
+      background-image: url('https://raw.githubusercontent.com/Dangiji121/svg-icons/a7ff76d6b33f8c632b5d57d92a556e534098b739/page-icon.svg');
+    }
+    .img-google-drive {
+      background-image: url('https://raw.githubusercontent.com/Dangiji121/svg-icons/c95890ad41787040fa77b454f6dab4eecd35a052/google-drive.svg');
+    }
+    .img-terms {
+      background-image: url('https://raw.githubusercontent.com/Dangiji121/svg-icons/30175876065847828f0539b79c12951432c6653f/terms.svg');
+    }
+    .img-policy {
+      background-image: url('https://raw.githubusercontent.com/Dangiji121/svg-icons/30175876065847828f0539b79c12951432c6653f/policy.svg');
+    }
+    .img-gdpr-policy {
+      background-image: url('https://raw.githubusercontent.com/Dangiji121/svg-icons/30175876065847828f0539b79c12951432c6653f/gdpr-policy.svg');
+    }
+    .img-resize-image {
+      background-image: url('https://raw.githubusercontent.com/Dangiji121/svg-icons/7c2ff874e166cb7e68fe11e88d150b4d79e0778a/resize-image.svg');
+    }
+    .img-video-schema {
+      background-image: url('https://raw.githubusercontent.com/Dangiji121/svg-icons/7c2ff874e166cb7e68fe11e88d150b4d79e0778a/video-schema.svg');
+    }
+    .img-text-word-count {
+      background-image: url('https://raw.githubusercontent.com/Dangiji121/svg-icons/7c2ff874e166cb7e68fe11e88d150b4d79e0778a/text-word-count.svg');
+    }
+    .img-bulk-link {
+      background-image: url('https://raw.githubusercontent.com/Dangiji121/svg-icons/7c2ff874e166cb7e68fe11e88d150b4d79e0778a/link.svg');
+    }
+    .img-google-index {
+      background-image: url('https://raw.githubusercontent.com/Dangiji121/svg-icons/535cbe20e86b1f2891170dfb41c8470628a5ee21/google-index.svg');
+    }
+    .img-calculator {
+      background-image: url('https://raw.githubusercontent.com/Dangiji121/svg-icons/c95890ad41787040fa77b454f6dab4eecd35a052/calculator.svg');
+    }
+    .img-android {
+      background-image: url('https://raw.githubusercontent.com/Dangiji121/svg-icons/e1959ad3b90f2c6bb487a38c5ea8a4ebcc00041e/robot-android.svg');
+    }
+    .img-robot {
+      background-image: url('https://raw.githubusercontent.com/Dangiji121/svg-icons/e1959ad3b90f2c6bb487a38c5ea8a4ebcc00041e/robot.svg');
+    }
+    .img-image {
+      background-image: url('https://raw.githubusercontent.com/Dangiji121/svg-icons/e1959ad3b90f2c6bb487a38c5ea8a4ebcc00041e/image.svg');
+    }
+    .img-blue {
+      background-image: url('https://raw.githubusercontent.com/Dangiji121/svg-icons/33b56f9ff44244d4ab5f65ce0820c25f7fb89cf9/blue-img.svg');
+    }
+
+    .menu-item-title {
+      font-size: 0.7rem;
+      font-weight: bold;
+    }
+
+    @media (max-width: 768px) {
+      .group-item {
+        flex: 1 1 calc(33.33% - 20px); /* 3 items per row on tablets */
+        max-width: calc(33.33% - 20px);
+      }
+    }
+
+    @media (max-width: 480px) {
+      .group-item {
+        flex: 1 1 calc(50% - 20px); /* 2 items per row on tablets */
+        max-width: calc(50% - 20px);
+      }
+    }
